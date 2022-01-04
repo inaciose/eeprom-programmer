@@ -4,6 +4,10 @@ Copyright 2017 Ben Eater
 
 This code and schematic are [MIT licensed](http://en.wikipedia.org/wiki/MIT_License).
 
+## The fork
+
+This fork is done to make the repo as a platformio project sets
+
 ## Circuit
 
 This is a simple circuit for programming the 28C16, 28C64, 28C256, and similar parallel EEPROMs using an Arduino. Since the Arduino doesn’t have enough pins to directly control all of the address, data, and control lines of the EEPROM, two 74HC595 shift registers are used for the 11 address lines (15 for the 28C256) and the output enable control line.
